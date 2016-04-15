@@ -1,5 +1,1 @@
-# my_site
-
-:tada:
-
-Enjoy… 
+#this is my site! 
