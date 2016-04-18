@@ -5,25 +5,25 @@
     .module("app")
     .config(appRoutes);
 
-    appRoutes.$inject = ["$urlRouteProvider", "stateProvider"];
+    appRoutes.$inject = ["$urlRouterProvider", "$stateProvider"];
 
-    function appRoutes($urlRouteProvider, $stateProvider) {
+    function appRoutes($urlRouterProvider, $stateProvider) {
 
       $stateProvider
         .state("about", {
           url: "/",
-          templateUrl: "/js/layouts/about.html"
+          templateUrl: "/js/templates/about.html"
         })
         .state("contact", {
           url: "/contact",
-          templateUrl: "/js/layouts/contact.html"
+          templateUrl: "/js/templates/contact.html"
         })
         .state("projects", {
           url: "/projects",
-          templateUrl: "/js/layouts/projects.html"
+          templateUrl: "js/templates/projects.html"
         });
 
-      $urlRouteProvider.otherwise("/");
+      $urlRouterProvider.otherwise("/");
     }
 
 })();
