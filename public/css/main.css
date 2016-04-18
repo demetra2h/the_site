@@ -1,14 +1,48 @@
-*,
-html,
+* {
+  box-sizing: border-box;
+}
+
 body {
+  background: url('../images/business.png') no-repeat;
+  background-size: cover;
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
-
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  padding: 70px;
+  padding-bottom: 100px;
 }
 
-body {
-  font-size: 14px;
-  padding: 50px;
+.info {
+  max-width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #000406;
+  border: 5px solid white;
+  border-radius: 50px;
 }
 
-a { color: #00B7FF; }
+.icons {
+  font-size: 100px;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0px;
+  background-color: black;
+  text-align: center;
+}
+
+a:visited {
+    color: white;
+}
+
+.head {
+  font-size: 50px;
+  text-shadow: #4B4F51 5px 5px;
+}
