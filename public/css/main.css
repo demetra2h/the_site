@@ -1,6 +1,6 @@
-* {
+/** {
   box-sizing: border-box;
-}
+}*/
 
 html {
   position: relative;
@@ -21,8 +21,10 @@ body {
 
 .info {
   max-width: 600px;
-  padding: 20px;
+  padding: 25px;
   margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
   background-color: #000406;
   border: 5px solid white;
   border-radius: 50px;
@@ -41,6 +43,7 @@ body {
   padding: 0px;
   background-color: black;
   text-align: center;
+  font-size: 12px;
 }
 
 a:visited {
@@ -49,5 +52,18 @@ a:visited {
 
 .head {
   font-size: 50px;
-  text-shadow: #4B4F51 5px 5px;
+  color: white;
+  text-shadow: black 2px 5px;
 }
+
+.img-circle {
+  border: 5px solid white;
+  border-radius: 100px;
+}
+
+.img-rounded {
+  border: 5px solid white;
+}
+
+
+
