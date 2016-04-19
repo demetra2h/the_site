@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   background: url('../images/business.png') no-repeat;
   background-size: cover;
